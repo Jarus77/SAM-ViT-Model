@@ -26,3 +26,16 @@ Saving of model weights after each epoch to specified directories.
 ## 4. Loss Functions:
 
 Utilization of MONAI library's loss functions (DiceCELoss, etc.) for calculating segmentation losses during training.
+
+
+# USAGE
+
+## Environment Setup
+
+1. Install required packages:
+
+pip install torch torchvision numpy matplotlib monai transformers
+
+## Training the Model
+
+To train the model for different class change the image_folder and mask-folder path
